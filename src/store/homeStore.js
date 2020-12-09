@@ -1,24 +1,8 @@
-import { observable,action, autorun } from "mobx";
-
-let message = observable({
-    title: "Foo",
-    author: {
-        name: "Michel"
-    },
-    likes: [
-        "John", "Sara"
-    ]
-})
-
-// autorun(() => {
-//     console.log(message.title)
-// })
-
-message.title = "Bar"
+import { observable, action } from "mobx";
 
 class HomeStore {
 	@observable homeNum = 0;
-	constructor(homeNum){
+	constructor(homeNum) {
 		this.homeNum = homeNum || this.homeNum;
 	}
 	@action addNum() {

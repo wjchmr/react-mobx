@@ -10,10 +10,10 @@ class CollectionAPI extends Component {
 		age: 20,
 		count: 30,
 		size: 2,
-    };
-    
-    @observable
-    price = 2
+	};
+
+	@observable
+	price = 2;
 
 	@computed
 	get sum() {
@@ -21,8 +21,9 @@ class CollectionAPI extends Component {
 	}
 
 	componentDidMount() {
-        this.list.age = 25
-        this.price = 3
+		this.list.age = 25;
+		this.price = 3;
+		remove(this.list, "age");
 	}
 
 	render() {

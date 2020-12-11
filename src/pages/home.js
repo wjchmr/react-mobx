@@ -1,7 +1,7 @@
 import { observer } from "mobx-react";
 import React, { Component } from "react";
 import CollectionAPI from '../components/CollectionAPI'
-import EffectHooks from '../components/EffectHooks'
+import Wave from '../components/anmation'
 
 /* 
 observer:将你的组件变成响应式组件。就是数据改变时候可以出发重新的渲染。
@@ -14,8 +14,7 @@ class Home extends Component {
 	render() {
 		return (
 			<div>
-				{/* <CollectionAPI/> */}
-				<EffectHooks/>
+				{/* <Wave/> */}
 			</div>
 		);
 	}

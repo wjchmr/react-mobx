@@ -1,0 +1,26 @@
+.wave{
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.wave .box{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    border-radius: 30%;
+    animation: wave 4s linear infinite;
+    position: absolute;
+    top:45%;
+    left: -50%;
+}
+
+@keyframes wave{
+    from {
+        transform:rotateZ(0deg);
+    }
+    to {
+        transform:rotateZ(360deg);
+    }
+}

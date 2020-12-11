@@ -1,16 +1,12 @@
 import React from "react";
 
+import './style.css'
+
 export default function Example(props) {
-	const { count } = props;
-	const handleClick = () => {
-		setTimeout(() => {
-			alert(count);
-		}, 3000);
-	};
+	
 	return (
-		<div>
-			<p>{count}</p>
-			<button onClick={handleClick}>Alert Count</button>
+		<div className='wrap'>
+			<div></div>
 		</div>
 	);
 }

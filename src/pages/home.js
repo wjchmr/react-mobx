@@ -1,7 +1,6 @@
 import { observer } from "mobx-react";
 import React, { Component } from "react";
-import CollectionAPI from '../components/CollectionAPI'
-import Wave from '../components/anmation'
+import MemberCarousel from "./../components/MemberCarousel";
 
 /* 
 observer:将你的组件变成响应式组件。就是数据改变时候可以出发重新的渲染。
@@ -12,11 +11,7 @@ homeStore其实就是store/index中 new出来的实例名称 */
 @observer
 class Home extends Component {
 	render() {
-		return (
-			<div>
-				{/* <Wave/> */}
-			</div>
-		);
+		return <MemberCarousel />;
 	}
 }
 export default Home;

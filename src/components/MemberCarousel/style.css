@@ -1,0 +1,91 @@
+.member-carousel {
+	position: absolute !important;
+	opacity: 0.74;
+	background-image: linear-gradient(107deg, #ff2b53 26%, #fe1525 100%);
+	border-radius: 28px;
+	z-index: 999;
+	width: 294px !important;
+	height: 56px !important;
+	left: 23px;
+	top: 145px;
+	font-size: 32px;
+	color: #fff;
+}
+
+.item {
+	height: 56px;
+	line-height: 56px;
+	align-items: center;
+	display: flex;
+}
+
+.icon {
+	border-radius: 28px;
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+	background-color: #fff;
+	margin-left: 4px;
+	background-position: center;
+	background-size: cover;
+}
+/* .icon1 {
+	background-image: url("../../../style/assets/vheaders/1.png");
+}
+.icon2 {
+	background-image: url("../../../style/assets/vheaders/2.png");
+}
+.icon3 {
+	background-image: url("../../../style/assets/vheaders/3.png");
+}
+.icon4 {
+	background-image: url("../../../style/assets/vheaders/4.png");
+}
+.icon5 {
+	background-image: url("../../../style/assets/vheaders/5.png");
+}
+.icon6 {
+	background-image: url("../../../style/assets/vheaders/6.png");
+}
+.icon7 {
+	background-image: url("../../../style/assets/vheaders/7.png");
+}
+.icon8 {
+	background-image: url("../../../style/assets/vheaders/8.png");
+}
+.icon9 {
+	background-image: url("../../../style/assets/vheaders/9.png");
+}
+.icon10 {
+	background-image: url("../../../style/assets/vheaders/10.png");
+}
+.icon11 {
+	background-image: url("../../../style/assets/vheaders/11.png");
+}
+.icon12 {
+	background-image: url("../../../style/assets/vheaders/12.png");
+}
+.icon13 {
+	background-image: url("../../../style/assets/vheaders/13.png");
+}
+.icon14 {
+	background-image: url("../../../style/assets/vheaders/14.png");
+}
+.icon15 {
+	background-image: url("../../../style/assets/vheaders/15.png");
+}
+.icon16 {
+	background-image: url("../../../style/assets/vheaders/16.png");
+}
+.icon17 {
+	background-image: url("../../../style/assets/vheaders/17.png");
+}
+.icon18 {
+	background-image: url("../../../style/assets/vheaders/18.png");
+}
+.icon19 {
+	background-image: url("../../../style/assets/vheaders/19.png");
+}
+.icon20 {
+	background-image: url("../../../style/assets/vheaders/20.png");
+} */

@@ -7,10 +7,10 @@ class Router extends Component {
 	render() {
 		return (
 			<HashRouter>
-				<>
+				{/* <> */}
 					<Route exact path={`/`} component={Home} />
 					<Route path={`/one`} component={One} />
-				</>
+				{/* </> */}
 			</HashRouter>
 		);
 	}

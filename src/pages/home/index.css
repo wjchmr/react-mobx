@@ -1,0 +1,25 @@
+.content{
+    margin-bottom: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1;
+    overflow: scroll;
+}
+
+.page-bottom{
+    width: 100%;
+    height: 50px;
+    background-color: azure;
+}
+
+/* .page-bottom{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: azure;
+    bottom: 0;
+    left: 0;
+} */

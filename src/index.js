@@ -7,6 +7,8 @@ import { configure } from "mobx";
 import { Provider } from "mobx-react";
 import * as serviceWorker from "./serviceWorker";
 
+import './index.css'
+
 ReactDOM.render(
 	<Provider {...stores}>
 		<Router />

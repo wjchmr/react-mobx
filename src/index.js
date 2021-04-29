@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Router from "./router";
 import stores from "./store";
-// eslint-disable-next-line
 import { configure } from "mobx";
 import { Provider } from "mobx-react";
 import * as serviceWorker from "./serviceWorker";
 
+import 'antd-mobile/dist/antd-mobile.css'; 
 import './index.css'
 
 ReactDOM.render(

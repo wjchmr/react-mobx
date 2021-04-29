@@ -1,0 +1,9 @@
+.nav-bar {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	line-height: 50px;
+	justify-content: space-around;
+	padding-top: constant(safe-area-inset-top);
+	padding-top: env(safe-area-inset-top);
+}

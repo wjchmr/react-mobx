@@ -1,5 +1,8 @@
 import { observer } from "mobx-react";
 import React, { Component } from "react";
+import Nav from "../../components/nav";
+import Tabs from "../../components/tabs";
+import Canvas from "../../components/canvas";
 
 import "./index.css";
 
@@ -13,8 +16,10 @@ homeStore其实就是store/index中 new出来的实例名称 */
 class Home extends Component {
 	render() {
 		return (
-			<div className='content'>
-				<p className='main'>
+			<div className='home'>
+				<Nav />
+
+				<div className='content'>
 					代码是在操作数据，把一种形式的数据编程另一种形式。抽象的数据是一种数据，而显示在屏幕上的位图也是一种数据，
 					当然必要的时候我们也可以把函数视作数据。我们可以得到一个数据到界面的映射关系，就像React提倡的那样：代码是在操作数据，
 					把一种形式的数据编程另一种形式。抽象的数据是一种数据，而显示在屏幕上的位图也是一种数据，当然必要的时候我们也可以把函数视作数据。
@@ -59,10 +64,8 @@ class Home extends Component {
 					代码是在操作数据，把一种形式的数据编程另一种形式。抽象的数据是一种数据，而显示在屏幕上的位图也是一种数据，当然必要的时候我们也可以把函数视作数据。
 					我们可以得到一个数据到界面的映射关系，就像React提倡的那样：代码是在操作数据，把一种形式的数据编程另一种形式。抽象的数据是一种数据，
 					而显示在屏幕上的位图也是一种数据，当然必要的时候我们也可以把函数视作数据。我们可以得到一个数据到界面的映射关系，就像React提倡的那样：
-				</p>
-				<div className='page-bottom'>
-					定位
 				</div>
+				<div className='page-bottom'>底部</div>
 			</div>
 		);
 	}

@@ -6,7 +6,7 @@ import './index.css'
 
 export default function Nav(props) {
 	return <div className='nav-bar'>
-        <Link to='./home'>home</Link>
-        <Link to='./demo1'>one</Link>
+        <Link to='/'>home</Link>
+        <Link to='/demo1'>one</Link>
     </div>;
 }

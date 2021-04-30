@@ -8,7 +8,7 @@ class Router extends Component {
 		return (
 			<HashRouter>
 				{/* <> */}
-					<Route exact path={`/home`} component={Home} />
+					<Route exact path={`/`} component={Home} />
 					<Route path={`/demo1`} component={Demo1} />
 				{/* </> */}
 			</HashRouter>

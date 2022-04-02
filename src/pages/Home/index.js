@@ -2,7 +2,6 @@ import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Example from './Example'
-import Editor from '../../../src/components/Editor/index'
 
 /* 
 observer:将你的组件变成响应式组件。就是数据改变时候可以出发重新的渲染。
@@ -37,7 +36,6 @@ class Home extends Component {
             <div>
                 <h1>Home</h1>
                 <Example count={1} />
-                <Editor />
             </div>
         )
     }

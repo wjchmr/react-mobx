@@ -1,7 +1,8 @@
 import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Example from './Example'
+import Example from '../../components/Example'
+import Ref from '../../components/DomRef'
 
 /* 
 observer:将你的组件变成响应式组件。就是数据改变时候可以出发重新的渲染。
@@ -35,7 +36,8 @@ class Home extends Component {
         return (
             <div>
                 <h1>Home</h1>
-                <Example count={1} />
+                {/* <Example count={1} /> */}
+                <Ref />
             </div>
         )
     }

@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.progress-item {
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+.mark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.dot{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: greenyellow;
+}
+
+.mid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 100%;
+    height: 0;
+    border: 1px solid greenyellow;
+}
